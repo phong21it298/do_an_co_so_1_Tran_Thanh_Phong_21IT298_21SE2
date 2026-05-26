@@ -1,0 +1,16 @@
+#Chặn thư mục build và các công cụ dart.
+build/
+.dart_tool/
+
+#Chặn các file cấu hình riêng của IDE (VS Code, Android Studio).
+.idea/
+.vscode/
+*.iml
+
+#Chặn các file phụ thuộc (khi push lên người khác chỉ cần chạy flutter pub get để lấy lại).
+.packages
+.pub-cache/
+.pub/
+
+#Chặn file log và tạm.
+*.log
